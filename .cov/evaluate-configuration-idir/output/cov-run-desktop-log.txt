@@ -1,0 +1,74 @@
+startup: Coverity Desktop Analysis version 8.1.0 on Windows 10 Professional, 64-bit (build 14393)
+startup: Internal version numbers: 5511032c07 p-jasper1-push-24789.298.98
+startup: started at 2017-05-09 16:32:00
+startup: command line: C:\Program Files\Coverity\Coverity Static Analysis\bin\cov-run-desktop.exe --evaluate-configuration-settings-v1 C:\Users\kralljo\Documents\Visual Studio 2015\Projects\Evolution\.cov\evaluated-coverity.conf --dir C:\Users\kralljo\Documents\Visual Studio 2015\Projects\Evolution\.cov\evaluate-configuration-idir --code-base-dir C:\Users\kralljo\Documents\Visual Studio 2015\Projects\Evolution --tmpdir C:\Users\kralljo\AppData\Local\Temp covRunDesktopFileList.utf8.txt
+settings: {
+settings:   "type": "Coverity configuration",
+settings:   "format_version": 1,
+settings:   "settings": {
+settings:     "add_compiler_configurations": [
+settings:     ],
+settings:     "compiler_config_file": "C:\\Users\\kralljo\\Documents\\Visual Studio 2015\\Projects\\Evolution/data-coverity/v8.1.0/config/coverity_config.xml",
+settings:     "compiler_configurations": [
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--gcc"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--java"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--msvc"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--cs"
+settings:         ]
+settings:       },
+settings:       {
+settings:         "cov_configure_args": [
+settings:           "--comptype",
+settings:           "clangcc",
+settings:           "--compiler",
+settings:           "clang",
+settings:           "--template"
+settings:         ]
+settings:       }
+settings:     ],
+settings:     "cov_run_desktop": {
+settings:       "build_record_with_source": false,
+settings:       "ext1": {
+settings:       },
+settings:       "reference_snapshot": "idir-date"
+settings:     },
+settings:     "intermediate_dir": "C:\\Users\\kralljo\\Documents\\Visual Studio 2015\\Projects\\Evolution\\.cov\\evaluate-configuration-idir",
+settings:     "known_installations": [
+settings:       {
+settings:         "directory": "C:\\Program Files\\Coverity\\Coverity Static Analysis",
+settings:         "kind": "cov-analysis",
+settings:         "platform": "win64",
+settings:         "version": "8.1.0"
+settings:       }
+settings:     ],
+settings:     "license_file_dir": "C:\\Users\\kralljo\\Documents\\Visual Studio 2015\\Projects\\Evolution/data-coverity/v8.1.0/lic",
+settings:     "scm": {
+settings:     },
+settings:     "server": {
+settings:       "auth_key_file": "C:\\Users\\kralljo\\AppData\\Roaming\\Coverity/authkeys/ak--8080",
+settings:       "authenticate_ssl": false,
+settings:       "ext2": {
+settings:       },
+settings:       "ldap_server": "",
+settings:       "port": 8080,
+settings:       "ssl": false,
+settings:       "username": "kralljo"
+settings:     },
+settings:     "tmpdir": "C:\\Users\\kralljo\\AppData\\Local\\Temp"
+settings:   }
+settings: }
+shutdown: cov-run-desktop terminating with code 0 at 2017-05-09 16:32:00
